@@ -7,7 +7,10 @@ const authRoutes = require("./routes/authRoutes");
 const { errorHandler } = require("./middlewares/errorMiddleware");
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://taskmanagementapp-m39y.onrender.com',  
+  credentials: true, 
+}));
 app.use(express.json());
 
 // Routes
