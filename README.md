@@ -75,16 +75,16 @@ This project consists of two parts:
 
 1. Clone the repository and navigate to the backend folder:
 
-   ```bash
+
    git clone https://github.com/nishalalwani/taskManagementApp.git
    cd backend
 
 2. Install backend dependencies:
-   ```bash
+
     npm install
 
 3. Create a .env file in the backend root with the following variables:
-   ```bash
+
    PORT=5000
    MONGO_URI=mongodb://localhost:27017/auth-demo
    JWT_SECRET=your_jwt_secret_here
@@ -92,7 +92,6 @@ This project consists of two parts:
 4. Start MongoDB locally if running on localhost (e.g. mongod command or MongoDB service).
 
 5. Run the backend server:
-  ```bash
    npm start
 
 
@@ -101,16 +100,12 @@ This project consists of two parts:
 
 1. Open a new terminal, navigate to the frontend folder:
 
-  ```bash
   cd frontend
 
 
 2.  Install frontend dependencies:
-  ```bash
   npm install
 
 
 3.  Start the React development server:
-  ```bash
 npm run dev
- give me one copiebke readme file of this contenty
