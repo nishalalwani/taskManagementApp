@@ -8,7 +8,7 @@ const { errorHandler } = require("./middlewares/errorMiddleware");
 
 const app = express();
 app.use(cors({
-  origin: 'https://taskmanagementapp-m39y.onrender.com',  
+  origin: 'https://taskmanagementapp-1-m5ym.onrender.com/',  
   credentials: true, 
 }));
 app.use(express.json());
